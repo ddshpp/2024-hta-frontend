@@ -1,7 +1,7 @@
 # 2024-hta-frontend
 
 ```
-1. HTML, CSS, JavaScript 기초
+1. HTML, CSS, JavaScript 기초 
 ```
 
 ## 2024-hta 교육 진행 현황
