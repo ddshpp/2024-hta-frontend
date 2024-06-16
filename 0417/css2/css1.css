@@ -1,0 +1,319 @@
+.div1 {
+  background-color: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.div2 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-style: dotted;
+  border-color: yellow;
+  border-width: 10px;
+}
+
+.div3 {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 200px;
+  border-style: dotted;
+  border-width: 10px;
+  border-bottom-color: blue;
+  border-bottom-style: solid;
+}
+
+.span1 {
+  background-color: coral;
+  width: 200px;
+  height: 200px;
+}
+
+.div_main2 {
+  background-color: darkseagreen;
+  width: 800px;
+}
+
+.div_main {
+  background-color: cornflowerblue;
+  width: 500px;
+}
+
+.div4 {
+  clear: both;
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  border: 2px solid red;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+#flex {
+  display: flex;
+}
+
+.div5 {
+  width: 100px;
+  border: 10px solid blue;
+  padding: 100px;
+  border-radius: 100000px 100000px;
+}
+
+.button1 {
+  width: 100px;
+  border: 5px solid darkgreen;
+  padding: 10px;
+  border-radius: 100000px 100000px;
+}
+
+.btn01 {
+  width: 100px;
+  background: #142530;
+  background-image: -webkit-linear-gradient(black, #142530, #56a334);
+  background-image: -moz-linear-gradient(blueviolet, #142530, #56a334);
+  background-image: -ms-linear-gradient(deeppink, #142530, #56a334);
+  background-image: -o-linear-gradient(aquamarine, #142530, #56a334);
+  background-image: linear-gradient(to bottom, #142530, #56a334);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn01:hover {
+  background: #784e2b;
+  background-image: -webkit-linear-gradient(#784e2b, #784e2b, #0487de);
+  background-image: -moz-linear-gradient(deeppink, #784e2b, #0487de);
+  background-image: -ms-linear-gradient(aqua, #784e2b, #0487de);
+  background-image: -o-linear-gradient(yellow, #784e2b, #0487de);
+  background-image: linear-gradient(to bottom, #784e2b, #0487de);
+  text-decoration: none;
+}
+
+.div6 {
+  display: flex;
+  width: 800px;
+  background-color: #142530;
+}
+
+.button {
+  background-color: yellow;
+  border: none;
+  color: #0487de;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  color: #56a334;
+  background-color: black;
+}
+
+.button3 {
+  background-color: aquamarine;
+}
+
+.button4 {
+  color: darkslategray;
+  font-weight: bold;
+  background-color: darkgreen;
+}
+
+.button5 {
+  font-style: italic;
+  background-color: chartreuse;
+  border-radius: 100px;
+}
+
+.table1 {
+  width: 50%;
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+.tr1 {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid darkblue;
+}
+
+.td1 {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid darkblue;
+}
+
+.th1:hover, td1:hover {
+  border: #784e2b;
+  padding: 50px;
+  background-color: darkslategrey;
+}
+
+.div7 {
+  background-color: darkgrey;
+}
+
+.table2 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tr2 {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid orangered;
+}
+
+.td2 {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid orangered;
+}
+
+.div8 {
+  background-color: palegoldenrod;
+}
+
+.div9 {
+  margin: 10px;
+  width: 100px;
+  background-color: #784e2b;
+  display: inline;
+}
+
+.span2 {
+  margin: 10px;
+  width: 100px;
+  background-color: orangered;
+  display: block;
+}
+
+.div10 {
+  display: none;
+}
+
+.div11 {
+  visibility: hidden;
+}
+
+.div12 {
+  float: left;
+  margin: 10px;
+}
+
+
+.div13 {
+  width: 100px;
+  height: 100px;
+  background-color: darkseagreen;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.div14 {
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.div15 {
+  width: 100px;
+  height: 100px;
+  background-color: darkseagreen;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.div16 {
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+.sticky1 {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.div17 {
+  padding-bottom: 2000px;
+}
+
+.div_main3 {
+  background-color: darkgoldenrod;
+  width: 300px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.div_main4 {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  overflow: scroll;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #142530;
+  color: white;
+}
+
+li {
+  float: left;
+  border-right: 2px solid yellow;
+}
+
+li:last-child {
+  border-right: none;
+  color: deeppink;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: #56a334;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+  color: cornflowerblue;
+}
+
+.active {
+  background-color: deeppink;
+}
+

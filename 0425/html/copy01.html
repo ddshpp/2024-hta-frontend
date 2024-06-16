@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+  let html = '<table border="1" width="600">';
+  for( let row=1 ; row<=5 ; row++ ) {
+    html += '<tr>';
+    html += '<td>' + row + '회</td>';
+    for( let col=1 ; col<=6 ; col++ ) {
+      html += '<td>' + ( parseInt( Math.random() * 45 ) + 1 ) + '</td>';
+    }
+    html += '</tr>';
+  }
+  html += '</table>';
+
+  document.write( html );
+</script>
+</body>
+</html>

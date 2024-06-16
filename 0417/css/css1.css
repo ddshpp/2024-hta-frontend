@@ -1,0 +1,88 @@
+/*.test {*/
+/*  color: red;*/
+/*}*/
+
+/*body {*/
+/*  !*background-color: darkslateblue;*!*/
+/*  background-color: rgb(10, 10, 100);*/
+/*  background-image: url("../image/button.png");*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center;*/
+/*}*/
+
+/*body {*/
+/*  background: rgb(0,0,0) url("../image/zz01.jpeg") no-repeat center top;*/
+/*}*/
+
+body {
+  background-image: url("../image/bgpaper.gif");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+#id1 {
+  padding: 15px;
+  background-color: coral;
+}
+
+#id2 {
+  text-align: center;
+}
+
+#id3 {
+  text-align: left;
+}
+
+#id4 {
+  text-align: right;
+}
+
+#img1 {
+  vertical-align: center;
+}
+
+#img2 {
+  vertical-align: text-top;
+}
+
+#img3 {
+  vertical-align: text-bottom;
+}
+
+#img4 {
+  vertical-align: super;
+}
+
+.haaland1 {
+  background-image: url("../image/flower.gif"), url("../image/zz01.jpeg");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.opacity1 {
+  background-color: rgb(0, 0, 0, .1);
+}
+
+#text1 {
+  text-decoration: overline;
+}
+
+#text2 {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+#text3 {
+  color: coral;
+  text-decoration-style: dotted;
+}
+
+#text4 {
+  color: deeppink;
+  text-decoration-thickness: 5px;
+}
+
+.bg_color_cornflowerblue {
+  background-color: cornflowerblue;
+}
+

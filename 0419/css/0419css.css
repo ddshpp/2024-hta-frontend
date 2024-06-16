@@ -1,0 +1,22 @@
+.test {
+  /*background-color: #142530;*/
+  color: darkslateblue;
+  font-weight: bold;
+}
+
+div {
+  /*margin: 1px;*/
+}
+
+.div_bottom {
+  padding-bottom: 1px;
+}
+
+.table_1 {
+  border: 2px solid red;
+  padding: 1px;
+}
+
+.table_2 {
+  background-color: #0487de;
+}

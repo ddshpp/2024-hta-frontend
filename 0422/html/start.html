@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>0422 출발~!</title>
+  <link rel="stylesheet" type="text/css" href="../css/css01.css">
+</head>
+
+<body>
+<div>
+  <h3 class="test01">우헤헤헤헤 테스트~!</h3>
+  <div class="div_margin">
+    <label for="test01"> 겔겔겔!!!!</label>
+    <input id="test01" type="text" onkeyup="test01()">
+  </div>
+  <div class="div_margin">
+    <label for="test01_Result">테스트결과 : </label>
+    <span class="test02" id="test01_Result"></span>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01">우헤헤헤헤 테스트2~!</h3>
+  <div>
+    <label for="test02">입력하셈 : </label>
+    <input id="test02" type="text">
+    <button onclick="test02()"> 눌러보셈!!!</button>
+  </div>
+  <div>
+    <div id="test02_Result"></div>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <div>
+    <h3 class="test01">더해보자~!</h3>
+    <div class="div_margin">
+      <label for="test03_firstInputNumber">첫번째 수 : </label>
+      <input id="test03_firstInputNumber" type="text" onkeyup="test03()">
+    </div>
+    <div class="div_margin">
+      <label for="test03_SecondInputNumber">두번째 수 : </label>
+      <input id="test03_SecondInputNumber" type="text" onkeyup="test03()">
+    </div>
+    <div>
+      <label for="test03_result"> 결과 : </label>
+      <span id="test03_result"></span>
+      <hr>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="test01">홀짝홀짝!!!</h3>
+    <div class="div_margin">
+      <label for="test04">입력하세요~~!!!!!!! : </label>
+      <input id="test04" type="text" onkeyup="test04()">
+    </div>
+    <div>
+      <label for="test04_Result">결과는 : </label>
+      <span id="test04_Result"></span>
+      <hr>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="test01">비교!!!!!!!!!!!!!!</h3>
+    <div class="div_margin">
+      <label for="test05_firstNumber">입력하세요~~!!!!!!! : </label>
+      <input id="test05_firstNumber" type="text" onkeyup="test05()">
+    </div>
+    <div class="div_margin">
+      <label for="test05_secondNumber">입력하세요~~!!!!!!! : </label>
+      <input id="test05_secondNumber" type="text" onkeyup="test05()">
+    </div>
+    <div class="div_margin">
+      <label for="test05_thirdNumber">입력하세요~~!!!!!!! : </label>
+      <input id="test05_thirdNumber" type="text" onkeyup="test05()">
+    </div>
+    <div>
+      <label for="test05_Result"> 우후후후후후 ; </label>
+      <span class="test02" id="test05_Result"> </span>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01"> 고고고고곡ㄱㄱ고고고고단!!!!!!!</h3>
+  <div>
+    <label for="test07">입력해주세요!!!!!!!!!!</label>
+    <input class="div_margin" id="test07" type="text">
+  </div>
+  <div>
+    <label for="test07_2">또 입력해주세요!!!!!!</label>
+    <input class="div_margin" id="test07_2" type="text">
+  </div>
+  <div>
+    <button onclick="test07()"> 누르셈!!!!!!!!!!!!!!!!!!!!!!!</button>
+  </div>
+  <div>
+    <label for="test07_Result"> </label>
+    <span class="test07" id="test07_Result"></span>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<!--점심이후-->
+
+<div>
+  <h3 class="test01"> 함수 테스트~!!!!</h3>
+  <div>
+    <button class="button1" onclick="test09()"> 테스트1 (test09)</button>
+    <span id="test09_Result"></span>
+  </div>
+  <div>
+    <button class="button1" onclick="test10()"> 테스트2 (test10)</button>
+    <span id="test10_Result"></span>
+  </div>
+  <div>
+    <button class="button1" onclick="test12(test11)"> 테스트3 (test12)</button>
+  </div>
+  <div>
+    <button class="button1" onclick="test15()"> 테스트4 (test15)</button>
+  </div>
+  <div>
+    <button class="button1" onclick="test16()">테스트5 (test16)</button>
+  </div>
+  <div>
+    <button class="button1" onclick="test17()"> 테스트6 (test17)</button>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01"> 의무교육을 성실히받은 홀란드</h3>
+  <div class="div_margin">
+    <label for="firstInput"> 첫번째 숫자~!!</label>
+    <input id="firstInput" type="text">
+  </div>
+  <div class="div_margin">
+    <label for="secondInput"> 연산자 입력~!!</label>
+    <input id="secondInput" type="text">
+    <span> 더하기 : +  &nbsp;&nbsp;&nbsp; 빼기 : -  &nbsp;&nbsp;&nbsp;곱하기 : *   &nbsp;&nbsp;&nbsp;나누기 : /</span>
+  </div>
+  <div class="div_margin">
+    <label for="thirdInput"> 두번째 숫자~!!</label>
+    <input id="thirdInput" type="text">
+  </div>
+  <div class="div_margin">
+    <button class="button2" onclick="test18()">홀란드야 알려줘!!!!!!!!!!!!</button>
+  </div>
+  <div>
+    <label for="test18_Result"></label>
+    <div id="test18_Result2"></div>
+    <span class="test03" id="test18_Result"> </span>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01"> 생각보다 까다로운 홀란드</h3>
+  <div>
+    <label for="test20"> 홀란드야~</label>
+    <button id="test20" onclick="test20()"> 답변듣기</button>
+  </div>
+  <div>
+    <label for="test21"> 홀란드야~2</label>
+    <button id="test21" onclick="test21()"> 답변듣기</button>
+  </div>
+  <div>
+    <label for="test22"> 홀란드야~3</label>
+    <button id="test22" onclick="test22()"> 답변듣기</button>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01">구구단 천재 홀란드 </h3>
+  <div>
+    <label for="test23"></label>
+    <button id="test23" class="button2" onclick="test23()"> 홀란드에게 문제내기</button>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01"> 타이머 천재 홀란드 (로그보셈)</h3>
+  <div>
+    <button class="button2" onclick="test25()"> 홀란드 : 눌러보셈!!</button>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <h3 class="test01"> eval을 배운 홀란드</h3>
+  <div>
+    <label for="test27">홀란드 : 이게 됨?</label>
+    <input id="test27" type="text" onkeyup="test27()">
+  </div>
+  <div>
+    <label for="test27_Result"></label>
+    <span id="test27_Result"></span>
+  </div>
+</div>
+
+<script type="text/javascript" src="../js/js0422.js"></script>
+</body>
+</html>

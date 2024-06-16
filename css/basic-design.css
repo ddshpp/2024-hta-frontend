@@ -1,0 +1,34 @@
+.main-title {
+  background-color: darkslategrey;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.main-sub-title {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.main-list {
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #dfe6e6;
+  font-size: 20px;
+}
+
+li{
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+}

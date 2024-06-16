@@ -1,0 +1,150 @@
+.herder01 {
+  background-color: rosybrown;
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  font-style: italic;
+  height: 30px;
+  padding: 10px;
+  width: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header02 {
+  background-image: url("../../images/h01.jpeg");
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*margin-bottom: 5px;*/
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  width: 810px;
+  height: 345px;
+}
+
+.herder03 {
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  font-style: italic;
+  height: 30px;
+  padding: 10px;
+  width: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 820px;
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+}
+
+.button01 {
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: lightslategray;
+}
+
+.table01 {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table01 td {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  margin: 0;
+}
+
+.table02 {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.table02 tr:first-child {
+  background-color: silver;
+  border-collapse: collapse;
+}
+
+.table02 tr:first-child > td:first-child {
+  background-color: rosybrown;
+  border-collapse: collapse;
+}
+
+.table02 tr:first-child > td:last-child {
+  background-color: lightblue;
+  border-collapse: collapse;
+}
+
+.table02 td {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.button02 {
+  color: white;
+  background-color: darkred;
+}
+
+.button03 {
+  color: red;
+  background-color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.h001 {
+  background-image: url("../../images/h08.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  /*margin-bottom: 5px;*/
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  height: 267px;
+}
+.h002 {
+  background-image: url("../../images/h01.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  /*margin-bottom: 5px;*/
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  height: 267px;
+}
+
+.input01 {
+  background-color: silver;
+  width: 30px;
+  height: 30px;
+}

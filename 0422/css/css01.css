@@ -1,0 +1,50 @@
+.test01 {
+  padding: 2px;
+  font-weight: bold;
+  color: darkred;
+  width: 800px;
+  background-color: navajowhite;
+}
+
+.test02 {
+  color: navy;
+  background-color: lightcyan;
+  font-weight: bold;
+}
+
+.test03 {
+  color: navy;
+  background-color: lightcyan;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.div_margin {
+  margin-bottom: 5px;
+}
+
+table, tr, td{
+  text-align: center;
+  border-collapse : collapse;
+  border: 1px solid black;
+}
+
+ul {;
+  border-collapse : collapse;
+  text-align: center;
+  display: table;
+  margin: 1px 1px 1px 1px;
+}
+
+.button1 {
+  background-color: cadetblue;
+  color: #142530;
+  font-weight: bold;
+}
+
+.button2 {
+  background-color: cornflowerblue;
+  color: #142530;
+  font-weight: bold;
+  font-size: 20px;
+}

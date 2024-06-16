@@ -1,0 +1,29 @@
+.div_top {
+  width: 500px;
+  height: 30px;
+  background-color: cadetblue;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.div_main {
+  width: 500px;
+  height: 200px;
+  background-color: darkslateblue;
+  margin: 5px;
+}
+
+.div_margin {
+  margin: 5px;
+}
+
+.span_result {
+  margin: 5px;
+  width: 50px;
+  height: 10px;
+  background-color: darkgoldenrod;
+}
+
+
+

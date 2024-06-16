@@ -1,0 +1,11 @@
+.cursor_1 {
+  cursor: default;
+}
+
+.cursor_2 {
+  cursor: context-menu;
+}
+
+.cursor_3 {
+  cursor: grabbing;
+}

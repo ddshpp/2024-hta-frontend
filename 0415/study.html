@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>0415</title>
+</head>
+<body>
+<div>
+  <div>
+    <p>
+      1. 퍼알명은 .html or .htm 으로 쓴다<br>
+      2. DOCTYPE html : html5 임을 의미<br>
+      3. html lang="ko" : 한글 속성을 의미<br>
+      4. 태그 : 대소문자 안가림<br>
+      5. head에서 타이틀을 선언 -> ex01
+    </p>
+  </div>
+  <div>
+    난 본문 <br>
+    난 본문 <br>
+    난 본문 <br>
+
+    난 본 문 <br>
+    난 본 문 <br>
+    난 본 문 <br>
+    난&nbsp;본&nbsp;문 <br>
+    난&nbsp;&nbsp;본&nbsp;&nbsp;문 <br>
+    난&nbsp;&nbsp;&nbsp;본&nbsp;&nbsp;&nbsp;문 <br>
+    <!-- 난&nbsp;&nbsp;&nbsp;본&nbsp;&nbsp;&nbsp;문 <br> -->
+    난&nbsp;&nbsp;&nbsp;본&nbsp;&nbsp;&nbsp;문 <br>
+    난&nbsp;&nbsp;&nbsp;본&nbsp;&nbsp;&nbsp;문 <br>
+    난&nbsp;&nbsp;&nbsp;본&nbsp;&nbsp;&nbsp;문 <br>
+    태&nbsp;&nbsp;&nbsp;스&nbsp;&nbsp;&nbsp;트 <br>
+    태&nbsp;&nbsp;&nbsp;스&nbsp;&nbsp;&nbsp;트 <br>
+    우헤헤헤헤 <br>
+
+    주석 : comment 소스(O) 화면 (X) 설명할때 쓰임
+  </div>
+  <div>
+    <!-- header -->
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <!-- h7은 없음에도 잘 나옴 -->
+    <h7>h6</h7>
+
+    <!-- 줄긋기 -->
+    <hr>
+
+    <!-- 문단의 여러종류 -->
+    문장1 <br>
+    문장2
+    <p>
+      문장3
+      문장4
+    </p>
+    문장5
+    <div> 문장6</div>
+    <div> 문장7</div>
+    <span> 문장8 </span>
+    <span> 문장8 </span>
+  </div>
+  <div>
+    문장1
+    문장2
+    문장3 <br>
+    문장4
+
+    <pre>
+    문장5
+    문장6
+</pre>
+    <pre>
+    문장7 문장8
+</pre>
+    <blockquote>
+      문장9
+    </blockquote>
+    <blockquote>
+      문장10 문장11
+    </blockquote>
+    <blockquote>
+      문장12
+      문장13
+    </blockquote>
+
+    <q>
+      문장14
+    </q>
+    <q>
+      문장15 문장16
+    </q>
+    <q>
+      문장17
+      문장18
+    </q>
+  </div>
+  <div>
+    <!-- 효과 -->
+    문장1
+    <div> 문장2</div>
+    <div><b>문장3</b></div>
+    <div><strong>문장5</strong></div>
+    <div><i>문장6</i></div>
+    <div>문장7<sup>문장8</sup></div>
+    <div>문장9<sub>문장10</sub></div>
+    <div>문장11<small>문장12</small></div>
+    <div>문장13
+      <mark>문장14</mark>
+    </div>
+  </div>
+  <div>
+    <!--순서가 있는 목록-->
+    <ol>
+      <li> 사과</li>
+      <li> 참외</li>
+      <li> 수박</li>
+      <li> 딸기</li>
+      <li> 딸기</li>
+      <li> 수박</li>
+    </ol>
+
+    <hr>
+
+    <ol type="i">
+      <li> 사과</li>
+      <li> 참외</li>
+      <li> 수박</li>
+      <li> 딸기</li>
+      <li> 딸기</li>
+      <li> 수박</li>
+    </ol>
+
+    <ol type="i" start="5">
+      <li> 사과</li>
+      <li> 참외</li>
+      <li> 수박</li>
+      <li> 딸기</li>
+      <li> 딸기</li>
+      <li> 수박</li>
+    </ol>
+
+    <ol type="I">
+      <li> 사과</li>
+      <li> 참외</li>
+      <li> 수박</li>
+      <li> 딸기</li>
+      <li> 딸기</li>
+      <li> 수박</li>
+    </ol>
+
+    <hr>
+    <!--순서가 없는 목록-->
+    <ul>
+      <li> 딸기</li>
+      <li>사과</li>
+      <li>호랑이</li>
+      <li>감자</li>
+      <li>맥주</li>
+      <li>치킨</li>
+    </ul>
+
+    <ul type="square">
+      <li> 딸기</li>
+      <li>사과</li>
+      <li>호랑이</li>
+      <li>감자</li>
+      <li>맥주</li>
+      <li>치킨</li>
+    </ul>
+
+    <!--사전식 목록-->
+    <dl>
+      <dt> 제목1</dt>
+      <dd> 내용1</dd>
+      <dt> 제목2</dt>
+      <dd> 내용2</dd>
+      <dt> 제목3</dt>
+      <dd> 내용3</dd>
+      <dt> 제목4</dt>
+      <dd> 내용4</dd>
+
+    </dl>
+  </div>
+  <div>
+    <!-- 목록2-->
+    <ul>
+      <li> 문장1</li>
+      <li> 문장2
+        <ul>
+          <li> 문장3</li>
+          <li> 문장4</li>
+          <li> 문장5</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <img src="../images/h01.jpeg" alt=""> <br>
+    <img src="../images/h02.jpeg" width="300" height="" alt=""> <br>
+    <img src="../images/h03.jpeg" width="" height="200" alt=""> <br>
+    <img src="../images/h04.jpeg" width="300" height="200" alt=""> <br>
+    <img src="../images/h05.jpeg" width="500" height="200" alt=""> <br>
+
+    <figure>
+      <img src="../images/h06.jpeg" width="150" alt=""> <br>
+      <figcaption> figcaption 설명문장</figcaption>
+    </figure>
+
+  </div>
+  <div>
+    <!--
+    표(테이블)
+    테두리 <tag>
+    행<tr>
+    열<td>
+-->
+
+    <table border="2">
+      <tr>
+        <th>00</th>
+        <td>01</td>
+        <td>02</td>
+        <td>03</td>
+        <td>04</td>
+        <td>05</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>11</td>
+        <th>12</th>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <th>23</th>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+
+    </table>
+  </div>
+  <div>
+
+    <table border="2" width="1000" height="500" background="images/testImg02.png">
+      <tr background="images/testImg03.png">
+        <td width="100" height="100"> 00</td>
+        <td background="images/testImg04.png"> 01</td>
+        <td> 02</td>
+      </tr>
+      <tr>
+        <td border="2" width="200"> 10</td>
+        <td> 11</td>
+        <td> 12</td>
+      </tr>
+      <tr>
+        <td height="300"> 20</td>
+        <td background="images/testImg03.png"> 21</td>
+        <td> 22</td>
+      </tr>
+    </table>
+    <hr>
+    <table border="2" width="1000" height="500">
+      <tr>
+        <td valign="top"> 00</td>
+        <td valign="middle"> 01</td>
+        <td valign="bottom"> 02</td>
+      </tr>
+      <tr>
+        <td align="left"> 10</td>
+        <td align="center"> 11</td>
+        <td align="right"> 12</td>
+      </tr>
+      <tr>
+        <td height="300"> 20</td>
+        <td> 21</td>
+        <td> 22</td>
+      </tr>
+    </table>
+    <hr>
+    <table border="4" width="500" height="200">
+      <tr>
+        <td colspan="2"> 00</td>
+        <td> 01</td>
+      <tr>
+        <td> 10</td>
+        <td> 11</td>
+        <td> 12</td>
+      </tr>
+      <tr>
+        <td> 20</td>
+        <td colspan="2"> 21</td>
+      </tr>
+      <tr>
+        <td colspan="3"> 30</td>
+      </tr>
+    </table>
+
+    <hr>
+    <table border="4" width="500" height="200">
+      <tr>
+        <td colspan="2"> 00</td>
+        <td rowspan="2"> 01</td>
+      <tr>
+        <td rowspan="2"> 10</td>
+        <td> 11</td>
+      </tr>
+      <tr>
+        <td> 20</td>
+        <td> 21</td>
+      </tr>
+      <tr>
+        <td colspan="3"> 30</td>
+      </tr>
+    </table>
+
+    <hr>
+    <table border="2" width="1000" height="500">
+      <tr>
+        <td valign="top"> 00</td>
+        <td valign="middle"> 01</td>
+        <td valign="bottom"> 02</td>
+      </tr>
+      <tr>
+        <td align="left"> 10</td>
+        <td align="center"> 11</td>
+        <td align="right"> 12</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" width="600">
+            <tr>
+              <td> ss</td>
+              <td> ss</td>
+              <td> ss</td>
+            </tr>
+            <tr>
+              <td> ss</td>
+              <td> ss</td>
+              <td> ss</td>
+            </tr>
+          </table>
+        </td>
+        <td> 21</td>
+        <td> 22</td>
+      </tr>
+    </table>
+    <hr>
+
+    <figure>
+      <figcaption>
+        <b><h1>머릿글</h1></b>
+      </figcaption>
+      <table border="2" cellpadding="10" cellspacing="10" bgcolor="#cd853f">
+        <tr bgcolor="#9932cc">
+          <td bgcolor="#a52a2a">
+            <table border="1" cellpadding="5" cellspacing="5" bgcolor="black">
+              <tr>
+                <td bgcolor="#ff7f50">1</td>
+                <td bgcolor="#b22222">2</td>
+              </tr>
+              <tr>
+                <td bgcolor="navy">3</td>
+                <td bgcolor="#ffe4b5">4</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5" bgcolor="#2f4f4f">
+              <tr>
+                <td>5</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>8</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#00bfff">
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <tr>
+                <td><b><font color="#b22222">1 </font></b></td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#6495ed">
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <caption>
+                제목글
+              </caption>
+              <tr>
+                <td>1</td>
+                <td background="images/testImg04.png">2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table border="1" cellpadding="5" cellspacing="5">
+              <caption>
+                제목글
+              </caption>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr background="images/testImg03.png">
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+          <td bgcolor="green">
+            <table border="1" cellpadding="5" cellspacing="5">
+              <caption>
+                제목글
+              </caption>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td background="images/testImg03.png">3</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+    </figure>
+  </div>
+</div>
+</body>
+</html>

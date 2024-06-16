@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>ex01</title>
+  <link rel="stylesheet" type="text/css" href="./css/div.css">
+</head>
+
+<body>
+<div>
+  <div>
+    <h3>버튼 클릭시 알럿띄우기</h3>
+    <button onclick="ex1()">테스트</button>
+    <hr>
+  </div>
+  <div>
+    <h3>입력한 값 알럿띄우기</h3>
+    <input type="text" id="text111">
+    <button onclick="ex2()">테스트</button>
+    <hr>
+  </div>
+  <div>
+    <h3>입력한 값 로그찍어보자</h3>
+    <input type="text" id="text222">
+    <button onclick="ex3()">테스트</button>
+    <hr>
+  </div>
+  <div>
+    <h3>입력한 값 아래에 출력해보자</h3>
+    <input size="50px" id="input1" onkeyup="ex4()">
+    <div id="result1"></div>
+    <hr>
+  </div>
+</div>
+
+<div>
+  <div>
+    <div>
+      <h3>더하기 가능하나요</h3>
+      <div class="div_margin">
+        <label for="input2_1"> 첫번째 수</label>
+        <input type="text" id="input2_1" onkeyup="ex5()">
+      </div>
+      <div class="div_margin">
+        <label for="input2_2"> 두번째 수</label>
+        <input type="text" id="input2_2" onkeyup="ex5()">
+      </div>
+    </div>
+    <div>
+      <label for="result2"> 결과는~? :</label>
+      <span id="result2"></span>
+    </div>
+    <div>
+      <hr>
+    </div>
+  </div>
+  <div>
+    <div class="div_margin">
+      <h3>숫자 비교!!!!!!!!!</h3>
+      <label for="ifTestNumber1"> 숫자 하나 입력해 보세요!!!!!!!!!!!!!!!!!</label>
+      <input type="text" id="ifTestNumber1" onkeyup="ex6()">
+      <span id="ifTestResult2"></span>
+    </div>
+    <div class="div_margin">
+      <label for="ifTestNumber2"> 하나 더 입력해 보세요!!!!!!!!!!!!!!!!!</label>
+      <input type="text" id="ifTestNumber2" onkeyup="ex6()">
+      <span id="ifTestResult3"> </span>
+    </div>
+    <div class="div_margin">
+      <label for="ifTestResult"> 비교하겠습니다!!!!!!!!! : </label>
+      <span id="ifTestResult"> </span>
+    </div>
+    <div>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div>
+    <h3>시간입력해보셈~</h3>
+  </div>
+  <div>
+    <label for="inputTime"> 입력해보셈!!!!!</label>
+    <input id="inputTime" type="number" onkeyup="ex8()">
+  </div>
+  <div>
+    <span id="timeTestResult" style="font-size: 20px"></span>
+  </div>
+  <div>
+    <p> 0 <= 새벽 < 6 <= 아침 < 9 <= 아점 < 12 <= 점심 < 15 <= 점저 < 18 <= 저녁 < 21 <= 야식 < 24 <= 뭐임
+    <hr>
+  </div>
+</div>
+
+<div>
+  <div>
+    <h3>시험성적 해보장 (만들어야함)</h3>
+    <!--    성적 >= 90 a-->
+    <!--    성적 >= 80 b-->
+    <!--    성적 >= 70 c-->
+    <!--    성적 >= 60 d-->
+    <!--    성적 < 60 f-->
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+<div>
+  <div>
+    <h3> 무슨 계절인가요!!!!!!!!!!!!!!!!!!!!!!</h3>
+    <label for="saju"> 월을 입력해보세요!!!!!!!!!!!!!!</label>
+    <input id="saju" type="number" onkeyup="ex10()">
+  </div>
+  <div>
+    <label for="sajuResult"> 입력한 월의 계절은~!!!!!!!!!!!! : </label>
+    <span id="sajuResult" style="font-size: 20px"> </span>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/ex01.js"></script>
+</body>
+</html>

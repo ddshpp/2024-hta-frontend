@@ -1,0 +1,25 @@
+#i2_1 {
+  text-transform: uppercase;
+}
+
+#i2_2 {
+  text-transform: lowercase;
+}
+
+#i2_3 {
+  text-transform: capitalize;
+}
+
+#i2_4 {
+  word-spacing: 50px;
+}
+
+#i2_5 {
+  word-spacing: -5px;
+}
+
+#i2_6 {
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,185 @@
+.test {
+  color: #56a334;
+}
+
+.herder01 {
+  background-color: lightblue;
+  color: midnightblue;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  /*margin-bottom: 5px;*/
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  width: 600px;
+  opacity: 60%;
+}
+
+.herder02 {
+  background-color: darkslategrey;
+  color: white;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  /*margin-bottom: 5px;*/
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  width: 600px;
+}
+
+.herder03 {
+  background-color: lightblue;
+  color: midnightblue;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  /*margin-bottom: 5px;*/
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  width: 600px;
+}
+
+
+.herder04 {
+  background-image: url("../image/zzz002.jpeg");
+  background-color: lightblue;
+  color: white;
+  padding-left: 10px;
+  padding-top: 6px;
+  /*margin-bottom: 5px;*/
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  width: 600px;
+  height: 400px;
+}
+
+.herder05 {
+  background-image: url("../image/zz007.jpeg");
+  background-color: lightblue;
+  color: white;
+  padding-left: 10px;
+  padding-top: 6px;
+  /*margin-bottom: 5px;*/
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  width: 600px;
+  height: 400px;
+}
+
+.div01 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.tabla, tr, td {
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.button01 {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.button02 {
+  background-color: maroon;
+  opacity: 30%;
+  color: white;
+}
+
+.button03 {
+  background-color: #56a334;
+  opacity: 30%;
+  color: white;
+}
+
+.button04 {
+  background-color: chocolate;
+  opacity: 30%;
+  color: white;
+}
+
+.button05 {
+  background-color: blanchedalmond;
+  opacity: 30%;
+  font-size: 20px;
+}
+
+.button06 {
+  padding: 5px;
+  margin: 5px;
+  background-color: maroon;
+  font-size: 20px;
+  color: white;
+}
+
+
+.div002 {
+  background-color: darkslategrey;
+}
+
+.select01 {
+  font-size: 30px;
+  text-align: center;
+  background-color : white;
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.select02 {
+  font-size: 30px;
+  text-align: center;
+  background-color: lightcyan;
+  color: midnightblue;
+  width: 150px;
+  height: 45px;
+}
+
+.select03 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.option1 {
+  width: 50px;
+}
+
+.select03 {
+  font-size: 30px;
+  text-align: center;
+  background-color : white;
+  color: black;
+  width: 250px;
+  height: 50px;
+}
+
+.select04 {
+  font-size: 30px;
+  text-align: center;
+  background-color : white;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  width: 250px;
+  height: 50px;
+}
+
+
+.select05 {
+  font-size: 30px;
+  text-align: center;
+  background-color : white;
+  color: black;
+  width: 150px;
+  height: 50px;
+}

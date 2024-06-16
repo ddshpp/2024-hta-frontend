@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+  const year = 2024;
+  const month = 4;
+
+  const startCalendar = new Date(2024, month - 1, 1);
+  const endCalendar = new Date(2024, month, 1 - 1);
+  const nowCalendar = new Date();
+
+  const startDayOfWeek = startCalendar.getDay() + 1;
+  const endDate = endCalendar.getDate();
+  const endDayOfWeek = endCalendar.getDay() + 1;
+
+  let html = '<table border="1" width="800" height="400" cellspacing="0">';
+  html += "<tr>";
+  html += "<th>일요일</th>";
+  html += "<th>월요일</th>";
+  html += "<th>화요일</th>";
+  html += "<th>수요일</th>";
+  html += "<th>목요일</th>";
+  html += "<th>금요일</th>";
+  html += "<th>토요일</th>";
+  html += "</tr>";
+
+  html += "<tr>";
+  for (let i = 1; i < startDayOfWeek; i++) {
+    html += "<td></td>";
+  }
+
+  for (let i = 1, n = startDayOfWeek; i <= endDate; i++, n++) {
+    if (n % 7 == 1) {
+      html += "<tr>";
+    }
+
+    if (n % 7 == 1) {
+      if (n == nowCalendar.getDate() + 1) {
+        html += '<td bgcolor="red"><b>[' + i + "]</b></td>";
+      } else {
+        html += '<td bgcolor="red">' + i + "</td>";
+      }
+    } else if (n % 7 == 0) {
+      if (n == nowCalendar.getDate() + 1) {
+        html += '<td bgcolor="blue"><b>[' + i + "]</b></td>";
+      } else {
+        html += '<td bgcolor="blue">' + i + "</td>";
+      }
+    } else {
+      if (n == nowCalendar.getDate() + 1) {
+        html += "<td><b>[" + i + "]</b></td>";
+      } else {
+        html += "<td>" + i + "</td>";
+      }
+    }
+
+    if (n % 7 == 0) {
+      html += "</tr>";
+    }
+  }
+
+  for (let i = endDayOfWeek; i <= 6; i++) {
+    html += "<td></td>";
+  }
+
+  html += "</tr>";
+  html += "</table>";
+
+  document.write(html);
+</script>
+</body>
+</html>
